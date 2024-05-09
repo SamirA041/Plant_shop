@@ -1,0 +1,24 @@
+body{
+    font-family: "Hero Main", "Hero secondary";
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.header{
+    background-color: #1F2937;
+    color: azure;
+}
+
+li{
+
+}
+
+.footer{
+    background-color: #1F2937;
+    color: azure;
+
+}
