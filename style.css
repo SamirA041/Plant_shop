@@ -34,13 +34,30 @@ a:link, a:visited,  a:hover, a:active {
     text-decoration: none;
   }
 
+  /* will be using comments to break css up into parts */
   .intro{
     background-color: #1F2937;
     color: azure;
- 
+    padding: 32px;
+    display: flex;
+    flex-direction: row;
 
   }
 
+  .text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+
+  }
+
+  .img{
+    display: flex;
+    flex-grow: 1;
+  }
+
+  /*  */
   .main{
     background-color: antiquewhite;
     color:#1F2937;
