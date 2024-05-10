@@ -7,18 +7,58 @@ body{
     justify-content: space-between;
 
 }
-
 .header{
     background-color: #1F2937;
     color: azure;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-li{
+.body{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 
 }
+
+.links{
+    display: flex;
+    color: azure;
+
+}
+a:link, a:visited,  a:hover, a:active {
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .intro{
+    background-color: #1F2937;
+    color: azure;
+ 
+
+  }
+
+  .main{
+    background-color: antiquewhite;
+    color:#1F2937;
+  }
+
+  .third{
+    background-color: #E5E7EB;
+  }
+
+  .last{
+    background-color: antiquewhite;
+  }
 
 .footer{
     background-color: #1F2937;
     color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
