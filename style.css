@@ -10,6 +10,8 @@ body{
 .header{
     background-color: #1F2937;
     color: azure;
+    font-size: 25px;
+    font-weight: bolder;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,10 +30,12 @@ body{
 
 }
 a:link, a:visited,  a:hover, a:active {
-    color: white;
-    padding: 14px 25px;
+    color: #E5E7EB;
+    padding: 7px 12px;
     text-align: center;
     text-decoration: none;
+    font-size: 18px;
+    font-weight: normal;
   }
 
   /* will be using comments to break css up into parts */
@@ -41,15 +45,23 @@ a:link, a:visited,  a:hover, a:active {
     padding: 32px;
     display: flex;
     flex-direction: row;
-
   }
 
   .text{
     display: flex;
-    justify-content: flex-start;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 
+  }
+
+  button{ 
+    color: white;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 5px;
   }
 
   .img{
@@ -57,7 +69,9 @@ a:link, a:visited,  a:hover, a:active {
     flex-grow: 1;
   }
 
+
   /*  */
+
   .main{
     background-color: antiquewhite;
     color:#1F2937;
